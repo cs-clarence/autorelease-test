@@ -27,11 +27,14 @@ authors = []
 
 [bump_profiles]
 
-[packages.package-a]
+[packages."@autorelease-test/package-a"]
 path = "./package-a"
+public_api = true
 
-[packages.package-b]
+[packages."@autorelease-test/package-b"]
 path = "./package-b"
+public_api = true
 
-[packages.package-c]
+[packages."@autorelease-test/package-c"]
 path = "./package-c"
+public_api = false
