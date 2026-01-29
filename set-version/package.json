@@ -1,0 +1,5 @@
+{
+	"name": "@autorelease-test/set-version",
+	"bin": "src/index.js",
+	"version": "0.0.0"
+}
