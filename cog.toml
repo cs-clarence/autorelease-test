@@ -8,7 +8,11 @@ generate_mono_repository_package_tags = true
 branch_whitelist = []
 skip_ci = "[skip ci]"
 skip_untracked = false
-pre_bump_hooks = []
+pre_bump_hooks = [
+    "node ./set-version.js {{version}}",
+    "echo 'Upgraded Root Package to {{version}}'",
+    "git add package.json",
+]
 post_bump_hooks = []
 pre_package_bump_hooks = [
     "node ./set-version.js {{version}}",
