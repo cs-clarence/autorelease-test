@@ -1,13 +1,13 @@
 {
-	"name": "@autorelease-test/root",
-	"version": "0.0.0",
-	"dependencies": {
-		"@autorelease-test/set-version": "workspace:*"
-	},
-	"workspaces": [
-		"set-version",
-		"package-a",
-		"package-b",
-		"package-c"
-	]
+  "name": "@autorelease-test/root",
+  "version": "0.1.0",
+  "dependencies": {
+    "@autorelease-test/set-version": "workspace:*"
+  },
+  "workspaces": [
+    "set-version",
+    "package-a",
+    "package-b",
+    "package-c"
+  ]
 }

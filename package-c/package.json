@@ -1,7 +1,7 @@
 {
-	"name": "@autorelease-test/package-c",
-	"exports": {
-		".": "./src/index.ts"
-	},
-	"version": "0.0.0"
+  "name": "@autorelease-test/package-c",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "version": "0.1.0"
 }
