@@ -43,15 +43,15 @@ authors = []
 
 [packages."@autorelease-test/package-a"]
 path = "./package-a"
-include = ["package-a/**"]
+include = ["./package-a/**"]
 public_api = true
 
 [packages."@autorelease-test/package-b"]
 path = "./package-b"
-include = ["package-b/**"]
+include = ["./package-b/**"]
 public_api = true
 
 [packages."@autorelease-test/package-c"]
 path = "./package-c"
-include = ["package-c/**"]
+include = ["./package-c/**"]
 public_api = false
